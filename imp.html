@@ -1,0 +1,107 @@
+
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Deep Learning - Scratching the Surface</title>
+    
+    <meta name="description" content="IntroToNode Presentation for Node Boston Meetup 3/27/12" />
+    <meta name="author" content="Le Zhang" />
+
+    <link href='http://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css'>
+    <link href="css/introtonode.css" rel="stylesheet" />
+    
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+
+<body class="impress-not-supported">
+
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress">
+
+    <div id="title" class="step" data-x="-500" data-y="50">
+        <h1>DL Models</h1>
+    </div>
+
+    <div id="agenda" class="step" data-x="500" data-y="50">
+        <h3>Only solution to our lost situation</h3>
+        <h3>Clearing concepts</h3>
+        <h3>Ever told to clear your concepts??? 100 times </h3>
+        <h3>What does that mean?</h3>
+        <h3>Ever asked what it means?</h3>
+        <h3>Anyone ever told how to do dat??</h3>
+    </div>
+
+    <div class="cube">
+        <div class="topFace step" data-x="0" data-y="-125" data-z="-1005" data-rotate-x="60" data-rotate-y="0" data-rotate-z="45" data-scale="0.5">
+                <h1>Where we are now?</h1>
+                <ul>
+                    <li>CNN</li>
+                    <p>CNN uses convolution behind the scenes and uses the concept of parameter sharing which reduces the size of the network. This is very successful in solving image related scenarios.</p>
+                    <li>RNN</li>
+                    <p>RNN's use their internal memory to solve sequence related problems. It is the loops in the network that give them the capability to model long term dependencies. They are best for modelling language tasks. eg. LSTM and Attention</p>
+                </ul>
+        </div>
+        <div class="leftFace step" data-x="-125" data-y="90" data-z="-985" data-rotate-x="-30" data-rotate-y="-45" data-rotate-z="0" data-scale="0.5">
+                    <h1>Where we are now?</h1>
+                    <li>Encoder Decoder</li>
+                    <p>It is a compression algorithm which reduces the size of network. This dimensionality reduction technique ensures it efficiently learns the network representation so that decoding is easy and reconstruction of input is possible.</p>
+                    <li>Deep Q Network</li>
+                    <p>A model free reinforcement learning method which is used for finding optimal action selection policy. Every action leads to a reward. eg. Agents playing Atari games</p>
+        </div>
+        <div class="rightFace step" data-x="125" data-y="90" data-z="-985" data-rotate-x="-30" data-rotate-y="45" data-rotate-z="0" data-scale="0.5">
+                <h1>Where we are headed to?</h1>
+                <ul>
+                    <li>Deep Generative Models</li>
+                    <p>A model for randomly generating observable data values. The model once trained gives us probablity distribution over a given set of inputs and can be used to generate more samples similar to the one in the input. eg. GAN's are  used to create undistinguishable fake images.</p>
+                    <li>Multimodal Deep Learning</li>
+                    <p>This types of learning involves relating information from multiple sources just the way a human does. eg. Learning from audio and video together.</p>
+                </ul>
+        </div>
+        <div class="backRightFace step" data-x="125" data-y="-35" data-z="-1200" data-rotate-x="-30" data-rotate-y="135" data-rotate-z="0" data-scale="0.5">
+                <h1>Where we want to be?</h1>
+                <ul>
+                    <li>One Shot Learning</li>
+                    <li>Meta Learning</li>
+                    <li>Human Level Intelligence</li>
+                </ul>
+        </div>
+        <div class="backLeftFace step" data-x="-125" data-y="-35" data-z="-1200" data-rotate-x="-30" data-rotate-y="225" data-rotate-z="0" data-scale="0.5">
+                <h1>The Ultimate Level</h1>
+                <ul>
+                    <li>Superintelligence</li>
+                    <p>A superintelligence is a hypothetical agent that possesses intelligence far surpassing that of the brightest and most gifted human minds.</p>
+                </ul>
+        </div>
+        <div class="bottomFace step" data-x="0" data-y="180" data-z="-1180" data-rotate-x="60" data-rotate-y="180" data-rotate-z="45" data-scale="0.5">
+                <h1>Adverserial N</h1>
+                <ul>
+                    <li>Doing 100 questions not = concept is clear</li>
+                    <li>30 peers and 1 teacher cannot clear the concept?</li>
+                    <li>Charge for practice u do and u pay for what can be achieved freely n betterly</li>
+                </ul>
+
+        </div>
+
+        <div id="slide1" class="step" data-x="1850" align="center">
+                <form action="impress.html?#/slide10" target="_blank">
+                <b><input type="submit" value="LETS GO BACK"/></b>
+                </form>
+            </div> 
+    </div>
+
+</div>
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+</body>
+</html>

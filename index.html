@@ -1,0 +1,259 @@
+<html lang="en">
+    <head>
+         <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Deep Learning - Scratching the Surface</title>
+    
+    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
+    <meta name="author" content="Bartek Szopka" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+    <link href="css/impress-demo.css" rel="stylesheet" />
+    
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+        <style>
+            body{
+                width:1024px;
+                font-size: 45px;
+                font-family: 'PT Sans', sans-serif;
+				background: #2c3e50;
+				color: white;
+				
+            }
+
+            #start{
+                text-align:center;
+                width:1024px;
+               
+            }
+            #slide1{
+                text-align:center;
+                width:1024px;
+                
+            }
+            #slide2{
+                text-align:center;
+                width:1024px;
+               
+            }
+
+            .step{
+                text-align:center;
+                width:1024px;
+                color: white;
+            }
+
+            #slide7{
+                width:400px;
+            }
+            #slide8{
+                width:400px;
+            }
+            #slide9{
+                width:400px;
+            }
+
+            .hint_text{
+				margin-top: 120px;
+                background-color:#d0d0d0;
+                padding:15px;
+				border: 1px solid #484d52;
+				border-radius: 5px;
+				font-size: 25px;
+                letter-spacing: 2.5px;
+            }
+
+
+
+            .fallback-message {
+               	color: #eee;
+                line-height: 1.3;
+                width: 780px;
+                padding: 10px 10px 0;
+                margin: 20px auto;
+                border: 1px solid #E4C652;
+                border-radius: 10px;
+              
+            }
+
+            .fallback-message p {
+                margin-bottom: 10px;
+            }
+
+            .impress-supported .fallback-message {
+                display: none;
+            }
+			em{
+				font-style: normal;
+				border-bottom: 1px solid #484d52;
+				padding-bottom: 2px;
+				color: #d5a830;
+			}
+            input{
+                height:40px;
+                color:black;
+                font-size: 18px;
+            }
+
+            #logo{
+                height: 120px;
+                width: 450px;
+            }
+
+            .transparent-white{
+                color: rgba(255, 255, 255, 0.7);
+            }
+
+            .black{
+                color: rgba(0, 0, 0, 0.5)
+            }
+
+            .left{
+              text-align: left;
+            }
+
+            .center{
+              text-align: center;
+            }
+
+            video {
+            -webkit-transform: translateZ(1px);
+            }
+
+        </style>
+
+
+    </head>
+    <body class="impress-not-supported">
+
+
+
+        <div id="impress">
+            <div id="title" class="step transparent-white" data-z="-5000" data-y="3000">
+               <h2>Deep Learning - Scratching the surface</h2>
+            </div>
+
+             <div id="ing" class="step" data-y="50">
+               <p class="positioning">Where we are right now?</p><br>
+               <p class="rotating">Where we are headed to?</p><br>
+               <p class="scaling">Where we wanna reach?</p>
+            </div>
+
+
+            <div id="slide1" class="step" data-x="-1350">
+                <h3>Why Deep Learning today?</h3>
+                <p>Larger Datasets</p>
+                <p>GPU's at affordable price</p>
+                <p>Improved algorithms and techniques</p>
+            </div> 
+
+            <div id="slide2" class="step" data-x="1350">
+               <h3>Deep Learning - Learned Represenatations - Real World - Non-Linearity</h3>
+            </div>
+
+
+
+            <div id="bored" class="step slide black left" data-x="1000" data-y="-1500">
+              <q class="center">Deep Learning Lingo</q>
+              <ul>Layers</ul>
+                <li>Input Layer</li>
+                <li>Hidden Layer</li>
+                <li>Output Layer</li>
+              </ul>
+              <ul>Activation function</ul>
+                <li>Sigmoid</li>
+                <li>tanh</li>
+                <li>ReLU</li></ul>
+              </ul>
+              <ul>Fully Connected Layers</ul>
+              <ul>Weights</ul>
+              <ul>Bias</ul>
+            </div>
+
+             <div class="step slide black left" data-x="2500" data-y="-1500">
+                <q class="center">The ultimate algorithm</q>
+                <p>Initialize with random weights</p>
+                <p>Repeat:</p>
+                <p>Apply activation function</p>
+                <p>Calculate the gradients</p>
+                <p>Quantify the Loss</p>
+                <p>Update the weights</p>
+                <p>Go over again until the loss is minimized</p>
+            </div> 
+
+            <!-- <div class="step slide black" data-x="4000" data-y="-1500">
+                <q>Two major topics of discussions</q>
+                <p>Why discuss them?</p>
+                <p>Make a difference in today and hence future</p>
+                <p>IIT's</p>
+                <p>Concepts</p>
+            </div> -->
+
+
+            <!-- <div id="slide3" class="step" data-x="2200" data-y="1500">
+                 <p>Wanna go IIT?</p>
+                <p>Why?</p>
+                <p>Ever heard of suicides related to IIT</p>
+                <p>Both </p>    
+                <p>1.Those outside it-not able to get admitted into it.</p>
+                <p>2.Those inside it-admitted but unable to bear it.</p>
+            </div> -->
+
+            <div id="slide3" class="step" data-x="9200" data-scale='3'>
+                <p>Let's take a look at different types of deep learning models.</p>
+                <form action="imp.html" target="_blank">
+                <input type="submit" value="LETS CHECK THEM OUT"/>
+                </form>
+            </div>
+
+            <div id="slide5" class="step" data-x="2600" data-y="-500">
+               <p>Still yes???</p>
+                <p>Gives you best possible resources.</p>
+                <p>Less hard work to get those opportunities.</p>
+                <p>Saves your parent's money</p>
+                <p>And its's Ok if u r not an IITian need not suicide</p>
+                <p>But its always good to be an IITian with good no of resources </p>
+                
+            </div>
+
+            <div id="slide6" class="step" data-x="3800" data-rotate="150">
+                <p>Does dat gurantee success???</p>
+                <p>No coz ultimately it's u who needs to hard work </p>
+                <p>Sometimes people not from IIT's also make it large in life.</p>
+            </div>
+
+            <div id="slide10" class="step" data-x="22600" data-y='100' data-z="-180" data-scale='10'>
+                <p>Realised that study is fun!!!</p>
+                <p>I am geeek and I am proud of it.</p>
+                <p>Think and realise the circumstances under which such wonderous inventions took place.</p>
+                <p>U need not be genius but must have the passion to be one.</p>
+                
+            </div>
+
+            <div id="slide11" class="step" data-x="2800" data-y='700' data-z="20">
+                SANCHEETA KAUSHAL
+               <p>Twitter-@sanchiaman</p>
+                9736285800,9805185373
+            </div>
+            
+
+        </div>
+
+        <div class="fallback-message">
+            <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+            <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+        </div>
+
+
+        <script type="text/javascript" src="js/impress.js"></script>
+        <script type="text/javascript">impress().init();</script>
+
+
+
+    </body>
+</html>
+
+
